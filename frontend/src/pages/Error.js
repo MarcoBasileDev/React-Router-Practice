@@ -15,7 +15,7 @@ export default function Error() {
 
   if (error.status === 404) {
     title = "Not found!";
-    message = "Could not find resource or pace.";
+    message = "Could not find resource or page.";
   }
 
   return (
