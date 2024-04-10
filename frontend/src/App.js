@@ -49,6 +49,11 @@ const router = createBrowserRouter([
           { path: "new", element: <NewEvent />, action: manipulateEventAction },
         ],
       },
+      {
+        path: "newsletter",
+        element: <NewsletterPage />,
+        action: newsletterAction,
+      },
     ],
   },
 ]);
